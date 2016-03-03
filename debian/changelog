@@ -1,0 +1,5 @@
+broadcom-pcie-webcam (0.0.1~git20150229.1.8cc44d6) unstable; urgency=low
+
+  * First package version (Closes #XXXXXX)
+
+ -- Jean Baptiste Favre <debian@jbfavre.org>  Mon, 29 Feb 2016 19:15:22 +0100
