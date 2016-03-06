@@ -4,7 +4,7 @@
 
 version         := $(shell dpkg-parsechangelog | sed -nr '/^Version:/s/Version: (.*:)?(.*)~(.*)/\2/p')
 
-source_name     := broadcom-pcie-webcam
+source_name     := broadcom-facetimehd
 
 frwr_package    := firmware-$(source_name)
 frwr_target     := /lib/firmware/facetimehd
