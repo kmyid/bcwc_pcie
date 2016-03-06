@@ -2,7 +2,7 @@ Source: broadcom-pcie-webcam
 Section: non-free/kernel
 Priority: optional
 Maintainer: Jean Baptiste Favre <debian@jbfavre.org>
-Build-Depends: debhelper (>= 8), dkms
+Build-Depends: debhelper (>= 8), dkms, curl, xz-utils, cpio
 Standards-Version: 3.9.7
 Homepage: https://github.com/patjak/bcwc_pcie
 
@@ -13,15 +13,18 @@ Description: dkms source for the Broadcom 1570 PCIe webcam
  Broadcom 1570 PCIe webcam is a device driver to support the Facetime HD
  PCIe webcam found on recent Macbooks.
  .
- This package provides the source code for factimehd kernel modules and
+ This package provides the source code for factimehd kernel module and
  makes use of the DKMS build utility to install it for the running
- kernel. Needed firmware is provided by firmware-broadcom-pcie-webcam.
+ kernel.
+ .
+ Needed firmware is provided by firmware-broadcom-pcie-webcam.
 
 Package: firmware-broadcom-pcie-webcam
 Architecture: all
 Depends: ${misc:Depends}
 Description: Binary firmware for the Broadcom 1570 PCIe webcam
- Broadcom 1570 PCIe webcam is a device driver to support the Apple PCIe webcam
+ Broadcom 1570 PCIe webcam is a device driver to support the Facetime HD
+ PCIe webcam found on recent Macbooks.
  .
- This package contains the binary firmware for Broadcom 1570 PCIe webcam which
- can be found on various Apple laptops.
+ This package provides the binary firmware for broadcom-pcie-webcam-dkms
+ package.
