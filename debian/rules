@@ -24,18 +24,10 @@ install-dkms: install-tmp
 	dh_installdirs -p $(dkms_package) $(dkms_target)
 	dh_install -p $(dkms_package) debian/tmp/* $(dkms_target)/
 
-install-frwr:
-	cd firmware && make
-	dh_installdirs -p $(frwr_package) $(frwr_target)
-	dh_install -p $(frwr_package) firmware/firmware.bin $(frwr_target)/
-
-override_dh_install: install-dkms install-frwr
+override_dh_install: install-dkms
 
 override_dh_dkms:
 	dh_dkms -V $(version)
-
-override_dh_auto_clean:
-	cd firmware && make clean
 
 # do nothing
 override_dh_auto_configure override_dh_auto_build override_dh_auto_test override_dh_auto_install:
