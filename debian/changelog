@@ -1,3 +1,12 @@
+broadcom-facetimehd (0.0.1~git20150522.1.5a7083b) unstable; urgency=medium
+
+  * New update from upstream
+  * Update firmware download script from OSx 10.11.3 dmg
+  * Update d/rules to manage firmware download script
+  * Update standard version
+
+ -- Jean Baptiste Favre <debian@jbfavre.org>  Sun, 22 May 2016 21:26:56 +0200
+
 broadcom-facetimehd (0.0.1~git20150229.1.8cc44d6) unstable; urgency=low
 
   * First package version (Closes: #816958)
