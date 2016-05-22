@@ -3,7 +3,7 @@ Section: kernel
 Priority: optional
 Maintainer: Jean Baptiste Favre <debian@jbfavre.org>
 Build-Depends: debhelper (>= 8), dkms
-Standards-Version: 3.9.7
+Standards-Version: 3.9.8
 Homepage: https://github.com/patjak/bcwc_pcie
 
 Package: broadcom-facetimehd-dkms
