@@ -1,3 +1,9 @@
+broadcom-facetimehd (0.0.1~git20150523-5a7083b-2) unstable; urgency=medium
+
+  * Override dh_auto_clean to allow automatic build
+
+ -- Jean Baptiste Favre <debian@jbfavre.org>  Mon, 23 May 2016 10:23:19 +0200
+
 broadcom-facetimehd (0.0.1~git20150523-5a7083b-1) unstable; urgency=medium
 
   * Update d/compat
