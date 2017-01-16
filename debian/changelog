@@ -1,3 +1,10 @@
+broadcom-facetimehd (0.0.1~git20161107-0712f39-2) xenial; urgency=low
+
+  [ Kwang Moo Yi ]
+  * Update change relaase ID to compile for xenial
+
+ -- Kwang Moo Yi <kwang.m.yi@gmail.com>  Mon, 16 Jan 2017 15:09:00 +0100
+
 broadcom-facetimehd (0.0.1~git20161107-0712f39-1) unstable; urgency=medium
 
   [ Nick Bartos ]
